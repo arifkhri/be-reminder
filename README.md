@@ -17,18 +17,15 @@ API Rest project using express(ES), mysql, nodemail + etherial.email, db-migrate
     $ cd be-reminder
     $ npm i
 
-## Credentials
-> copy env.example to .env before installation
-> set credential inside .env file
+## Setup
+- change .env.example to .env and configure it 
+- create two directory: public/export/employee and public/picture/employee
 
-## Migration
+Migration
 
     $ npm run dbl up
 
-## Usage
-- change .env.example to .env and configure it 
-- create directory public/export/employee & public/picture/employee
-## Running the project
+Running the project
 
     $ npm run start
     $ npm run watch:dev
