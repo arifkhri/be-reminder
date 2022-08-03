@@ -2,7 +2,7 @@
 
 API Rest project using express(ES), mysql, nodemail + etherial.email, db-migrate, nodemon, and JWT
 
----
+
 ## Requirement
 | Name    | Version    |
 | ----------- | ------------- |
@@ -29,8 +29,12 @@ Running the project
 
     $ npm run start
     $ npm run watch:dev
+    
+Swagger
 
----
+> http://localhost:4005/docs
+
+
 ### Todo:
 - Import feature on a several list page
 - Integration a notif 3rd party
